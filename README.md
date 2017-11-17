@@ -1,15 +1,10 @@
-# Job interview assignment
-We kindly ask you to solve the task below. By solving and submitting this assignment you provide us with insights in how you solve real-world problems. What we will be looking at are topics such as: structuring of code, use of VCS, selection of 3rd party libraries, documentation etc.
+I have implemented a never ending loop of a bouncing sprite of a ball, using the Pixi JavaScript framework. I have implemented this using a static html file with a corresponding JavaScript file.
 
-## The task
+It is not possible to run this project in a Chrome browser unless you have tweaked the settings in regards to WebGLRenderingContext, therefore use FireFox or IE.
+Open the index.html file in your favorite browser (-Chrome), and look at the bouncing football! It is possible to increase the speed of said ball, by hitting the 'Faster' button, and it is possible to slow the ball down using the 'Slower' button, to the point of a still standing ball.
 
-Implement in Pixi.js a scene featuring the ball in "ball.png" bouncing up and down in an endless loop. Somewhere on the screen please add a control enabling the user to make the ball bounce faster or slower.
+I would love to dive into the whole universe of 2d animation and really learn to animate and implement using these technologies, and as I have never done something like this before I am also positive that there are libraries and plugins to help me implement effects like the Cubic Bezier curve bouncing effect.
 
-- Use Pixi.js as the language. Feel free to use plugins you deem appropriate.
+For the next steps I would have loved to implement a shadow beneath the ball that shapes in line with the ball moving, to really capture the bouncing effect. The possibility of squeezing the ball as it hits the ground would also add great effect to this animation.
 
-Please employ whatever technique you deem suitable to increase the realism of the animation.
-
-## Expectations
-Make a copy of this repository. Solve the task below. Push your code to a public repo, and send us the link as a reply to our email.
-
-Your solution should include a short readme describing your solution, how to use/test it and any final considerations such as known errors, next steps etc.
+Best Regards - Michael T.
