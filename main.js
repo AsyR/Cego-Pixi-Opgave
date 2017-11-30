@@ -66,10 +66,7 @@ function animate() {
 //Loop function to determine the position of the sprite
 function loop() {
   time += acceleration;
-  if (time >= 1) {
-    acceleration *= -1; //Implementation to swap direction
-    direction = !direction; //Change direction of the ball
-  } else if (time <= 0) {
+  if (time >= 1 || time <= 0){
     acceleration *= -1;
     direction = !direction;
   }
